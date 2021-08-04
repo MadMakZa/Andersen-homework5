@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HomeWork5fragments</string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="number">Number</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_margin">16dp</dimen>
+    <dimen name="widthTextField">300dp</dimen>
+    <dimen name="heightTextField">50dp</dimen>
+    <dimen name="frame_width">380dp</dimen>
+    <dimen name="marginVertical">6dp</dimen>
+    <dimen name="layoutHeightCardView">60dp</dimen>
+    <dimen name="textViewHeight">30dp</dimen>
+    <dimen name="marginTopTop">100dp</dimen>
+</resources>

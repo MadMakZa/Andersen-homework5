@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#04477C"
+    tools:context=".ui.DetailsFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/idNoteOne"
+        android:tag="1"
+        android:layout_marginVertical="@dimen/marginVertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layoutHeightCardView"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:layout_marginEnd="@dimen/layout_margin" >
+
+        <TextView
+            android:id="@+id/tvNameNoteOne"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textViewHeight"
+            android:gravity="start|center"
+            android:textColor="@color/black"
+            android:background="@color/teal_200"/>
+        <TextView
+            android:id="@+id/tvLastNameNoteOne"
+            android:layout_marginTop="@dimen/textViewHeight"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textViewHeight"
+            android:gravity="start|center"
+            android:textColor="@color/black"
+            android:background="@color/teal_700"/>
+        <TextView
+            android:id="@+id/tvPhoneNumberNoteOne"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/layoutHeightCardView"
+            android:gravity="center"
+            android:layout_gravity="end"
+            android:textColor="@color/black"
+            android:background="@color/teal_300"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/idNoteTwo"
+        android:tag="2"
+        android:layout_marginVertical="@dimen/marginVertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layoutHeightCardView"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:layout_marginEnd="@dimen/layout_margin" >
+
+        <TextView
+            android:id="@+id/tvNameNoteTwo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textViewHeight"
+            android:gravity="start|center"
+            android:textColor="@color/black"
+            android:background="@color/teal_200"/>
+        <TextView
+            android:id="@+id/tvLastNameNoteTwo"
+            android:layout_marginTop="@dimen/textViewHeight"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textViewHeight"
+            android:gravity="start|center"
+            android:textColor="@color/black"
+            android:background="@color/teal_700"/>
+        <TextView
+            android:id="@+id/tvPhoneNumberNoteTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/layoutHeightCardView"
+            android:gravity="center"
+            android:layout_gravity="end"
+            android:textColor="@color/black"
+            android:background="@color/teal_300"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/idNoteThree"
+        android:tag="3"
+        android:layout_marginVertical="@dimen/marginVertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layoutHeightCardView"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:layout_marginEnd="@dimen/layout_margin" >
+
+        <TextView
+            android:id="@+id/tvNameNoteThree"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textViewHeight"
+            android:gravity="start|center"
+            android:textColor="@color/black"
+            android:background="@color/teal_200"/>
+        <TextView
+            android:id="@+id/tvLastNameNoteThree"
+            android:layout_marginTop="@dimen/textViewHeight"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textViewHeight"
+            android:gravity="start|center"
+            android:textColor="@color/black"
+            android:background="@color/teal_700"/>
+        <TextView
+            android:id="@+id/tvPhoneNumberNoteThree"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/layoutHeightCardView"
+            android:gravity="center"
+            android:layout_gravity="end"
+            android:textColor="@color/black"
+            android:background="@color/teal_300"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/idNoteFour"
+        android:tag="4"
+        android:layout_marginVertical="@dimen/marginVertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layoutHeightCardView"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:layout_marginEnd="@dimen/layout_margin" >
+
+        <TextView
+            android:id="@+id/tvNameNoteFour"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textViewHeight"
+            android:gravity="start|center"
+            android:textColor="@color/black"
+            android:background="@color/teal_200"/>
+        <TextView
+            android:id="@+id/tvLastNameNoteFour"
+            android:layout_marginTop="@dimen/textViewHeight"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textViewHeight"
+            android:gravity="start|center"
+            android:textColor="@color/black"
+            android:background="@color/teal_700"/>
+        <TextView
+            android:id="@+id/tvPhoneNumberNoteFour"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/layoutHeightCardView"
+            android:gravity="center"
+            android:layout_gravity="end"
+            android:textColor="@color/black"
+            android:background="@color/teal_300"/>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

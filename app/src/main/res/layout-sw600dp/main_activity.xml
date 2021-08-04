@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutForTablet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/purple_500"
+    tools:context="shadow.step.homework5fragments.ui.MainActivity" >
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:layout_width="@dimen/frame_width"
+        android:layout_height="match_parent"
+        tools:layout="@layout/main_fragment"/>
+
+    <FrameLayout
+        android:id="@+id/containerTablet2"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:layout_width="@dimen/frame_width"
+        android:layout_height="match_parent"
+        tools:layout="@layout/details_fragment">
+    </FrameLayout>
+</LinearLayout>

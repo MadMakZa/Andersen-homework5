@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#04477C"
+    tools:context=".ui.DetailsFragment">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_marginTop="@dimen/marginTopTop"
+        android:layout_width="@dimen/widthTextField"
+        android:layout_height="@dimen/heightTextField"
+        android:background="@color/teal_200"
+        android:hint="@string/name"
+        android:textColor="@color/black"
+        android:maxEms="25"
+        android:maxLines="1"
+        android:layout_marginStart="@dimen/layout_margin" />
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="@dimen/widthTextField"
+        android:layout_height="@dimen/heightTextField"
+        android:background="@color/teal_700"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:textColor="@color/black"
+        android:maxEms="25"
+        android:maxLines="1"
+        android:hint="@string/last_name" />
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="@dimen/widthTextField"
+        android:layout_height="@dimen/heightTextField"
+        android:background="@color/teal_300"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:maxEms="16"
+        android:maxLines="1"
+        android:hint="@string/number"
+        tools:ignore="TextFields" />
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:text="@string/save"/>
+
+</LinearLayout>
